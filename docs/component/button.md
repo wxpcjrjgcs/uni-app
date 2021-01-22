@@ -66,7 +66,7 @@
 |getPhoneNumber | 获取用户手机号，可以从@getphonenumber回调中获取到用户信息|微信小程序、百度小程序、字节跳动小程序、支付宝小程序 |
 |launchApp | 小程序中打开APP，可以通过app-parameter属性设定向APP传的参数|[微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/launchApp.html)、[QQ小程序](https://q.qq.com/wiki/develop/miniprogram/frame/open_ability/open_app.html)|
 |openSetting | 打开授权设置页 |微信小程序、百度小程序|
-|getAuthorize | 支持小程序授权 | 支付宝小程序 |
+|getAuthorize | 授权获取用户信息，可以从@getAuthorize回调中获取到用户信息，包括头像、昵称等，同时button需添加属性：scope='userInfo' | 支付宝小程序 |
 |contactShare | 分享到通讯录好友 | 支付宝小程序 |
 |lifestyle | 关注生活号 | 支付宝小程序 |
 |openGroupProfile|呼起QQ群资料卡页面，可以通过group-id属性设定需要打开的群资料卡的群号，同时manifest中必须配置groupIdList|QQ小程序基础库1.4.7版本+|
